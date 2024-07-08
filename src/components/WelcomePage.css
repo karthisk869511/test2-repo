@@ -1,0 +1,103 @@
+
+.welbox {
+  background-color: #161a1d;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; 
+}
+
+.welmes {
+  color: white;
+  max-width: 50%;
+}
+
+.greet {
+  margin-bottom: 10px;
+}
+
+.greet h1 {
+  font-size: 7.2rem;
+}
+
+.devmes {
+  margin-bottom: 20px;
+  font-size: 2.3rem;
+}
+
+.touchin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+.recrt {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.socicon {
+  margin-top: 10px;
+  display: flex;
+  gap: 22px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .welbox {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .welmes {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .greet h1 {
+    font-size: 4rem; 
+  }
+
+  .devmes {
+    font-size: 1.8rem; 
+  }
+
+  .touchin {
+    margin-top: 2rem; 
+  }
+
+  .recrt {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+  }
+
+  .devimage img {
+    max-width: 100%;
+    height: auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  .greet h1 {
+    font-size: 3rem; 
+  }
+
+  .devmes {
+    font-size: 1.5rem; 
+  }
+
+  .touchin {
+    margin-top: 1rem; 
+  }
+}
